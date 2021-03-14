@@ -15,6 +15,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { PinkDirective } from './directives/pink.directive';
+import { ForDirective } from './directives/for.directive';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { PinkDirective } from './directives/pink.directive';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    PinkDirective
+    PinkDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
