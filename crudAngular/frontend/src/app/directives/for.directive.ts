@@ -1,7 +1,7 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appFor]'
+  selector: '[myFor]'
 })
 export class ForDirective {
 
