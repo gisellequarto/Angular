@@ -157,7 +157,7 @@
       "title": "Caprese salad",
       "type": "vegetable",
       "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
-      "filename": "19.jpg",
+      "filename": "https://emilybites.com/wp-content/uploads/2020/08/Caprese-Salad-7b.jpg",
       "price": 16.76
     },
     {
@@ -245,7 +245,7 @@
       "title": "Smoothie with chia seeds",
       "type": "fruit",
       "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over wooden table",
-      "filename": "30.jpg",
+      "filename": "https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg",
       "price": 25.26
     },
     {
@@ -317,7 +317,7 @@
       "title": "Italian ciabatta",
       "type": "bakery",
       "description": "Italian ciabatta bread cut in slices on wooden chopping board with herbs, garlic and olives over dark grunge backdrop, top view",
-      "filename": "39.jpg",
+      "filename": "https://i2.wp.com/allourway.com/wp-content/uploads/2014/07/Ciabatta-Bread-on-Breadboard.jpg",
       "price": 15.18
     },
     {
@@ -333,7 +333,7 @@
       "title": "Sliced lemons",
       "type": "fruit",
       "description": "Heap of whole and sliced lemons and limes with mint in vintage metal grid box over old wooden table with turquoise wooden background. dark rustic style.",
-      "filename": "41.jpg",
+      "filename": "https://cdn2.stylecraze.com/wp-content/uploads/2013/02/13-Incredible-Benefits-Of-Lemons-You-Must-Know-Banner-1.jpg",
       "price": 27.14
     },
     {
@@ -381,7 +381,7 @@
       "title": "Basil",
       "type": "vegetable",
       "description": "Concept of vegan food with basil",
-      "filename": "47.jpg",
+      "filename": "https://1.bp.blogspot.com/-6Gscuh_kQqo/X90aEm_ajHI/AAAAAAAC_X4/gdIRQuMThoIVuu-uCngesQMUbYLlzt07gCLcBGAsYHQ/s1148/fresh-basil-1.jpg",
       "price": 15.19
     },
     {
@@ -403,7 +403,7 @@
     {
       "title": "Fruits Test",
       "description": "Testing the url",
-      "filename": "https://imagens.brasil.elpais.com/resizer/pHVaz4HIQSpOMJEjxjovXfwS7wU=/768x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/KBCFXF2CRFDWI3W5M24KCOPQXY.jpg",
+      "filename": "https://www.cookingclassy.com/wp-content/uploads/2019/05/fruit-salad-2.jpg",
       "price": "5.00",
       "id": 50
     }
