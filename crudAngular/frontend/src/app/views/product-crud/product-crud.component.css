@@ -1,4 +1,13 @@
 button {
-    background-color: #E91E63;
-    border: solid 3px #212121;
+  margin: 10px 0px 40px 0px;
+  font-size: 20px;
+  border-color: #757575;
+  color: #212121;
+  box-shadow: 0 0 40px 40px #757575 inset, 0 0 0 0 #F8BBD0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 #E91E63 inset, 0 0 10px 4px #E91E63;
 }

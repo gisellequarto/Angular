@@ -1,1 +1,13 @@
-<p>product-read works!</p>
+<ul>
+    <li *ngFor="let product of products">
+        <div class="produto">
+            <img src="" />
+            <div class="nome">
+                <h4>{{ product.title}}</h4>
+            </div>
+            <div>
+                <span class="preco">{{ product.price}}</span>
+            </div>
+        </div>
+    </li>
+</ul>
