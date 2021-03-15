@@ -45,7 +45,7 @@
       "title": "Baking cake",
       "type": "dairy",
       "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
-      "filename": "5.jpg",
+      "filename": "http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/gt/2019/06/11/1560227824310_Tipe5.jpg?width=768&height=639&quality=75&mode=crop&anchor=middlecenter",
       "price": 11.14
     },
     {
@@ -399,5 +399,13 @@
       "description": "Peaches on branch with leaves and glasses with peach juice and limonade with ice cubes in aluminum tray over old metal table. dark rustic style. top view.",
       "filename": "49.jpg",
       "price": 25.62
+    },
+    {
+      "title": "Fruits Test",
+      "description": "Testing the url",
+      "filename": "https://imagens.brasil.elpais.com/resizer/pHVaz4HIQSpOMJEjxjovXfwS7wU=/768x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/KBCFXF2CRFDWI3W5M24KCOPQXY.jpg",
+      "price": "5.00",
+      "id": 50
     }
-  ]}
+  ]
+}

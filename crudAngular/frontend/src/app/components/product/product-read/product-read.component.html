@@ -1,7 +1,8 @@
-<ul>
-    <li *ngFor="let product of products">
-        <div class="produto">
-            <img  *ngIf="product.filename.includes('http')" src="{{product.filename}}" />
+<div>
+    <ul>
+        <li *ngFor="let product of paginatedProducts">
+            <div class="produto">
+                <img  *ngIf="product.filename.includes('http')" src="{{product.filename}}" />
                 <img  *ngIf="!product.filename.includes('http')" src="https://raw.githubusercontent.com/gisellequarto/Angular/main/crudAngular/backend/assets/images/{{product.filename}}" />
             <div class="nome">
                 <h4>{{ product.title }}</h4>
@@ -13,3 +14,5 @@
         </div>
     </li>
 </ul>
+        <button>Load More</button>
+</div>

@@ -1,9 +1,9 @@
 button {
-  margin: 10px 0px 40px 0px;
+  margin: 0;
   font-size: 20px;
   border-color: #757575;
   color: #212121;
-  box-shadow: 0 0 40px 40px #757575 inset, 0 0 0 0 #F8BBD0;
+  box-shadow: 0 0 20px 20px #757575 inset, 0 0 0 0 #F8BBD0;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
