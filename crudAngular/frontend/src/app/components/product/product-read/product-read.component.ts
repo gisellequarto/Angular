@@ -21,7 +21,9 @@ export class ProductReadComponent implements OnInit {
     })
   }
 
-  load(index: number): Product[] {
+  load(): Product[] {
+    let index : number = this.paginatedProducts.length + 11;
+    console.log(index);
     return this.paginatedProducts = this.products.slice(0, index);
   }
 
