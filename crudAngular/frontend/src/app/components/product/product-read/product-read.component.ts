@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductReadComponent implements OnInit {
 
   products : Product[];
-  paginatedProducts : Product[];
+  paginatedProducts : Product[] = [];
 
   constructor(private productService : ProductService) { }
 
@@ -18,10 +18,11 @@ export class ProductReadComponent implements OnInit {
     this.productService.read().subscribe(products => {
       this.products = products;
       this.paginatedProducts = products.slice(0, 11);
-      console.log(this.paginatedProducts);
     })
   }
 
-
+  load(index: number): Product[] {
+    return this.paginatedProducts = this.products.slice(0, index);
+  }
 
 }

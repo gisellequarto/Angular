@@ -11,9 +11,9 @@ export class ProductService {
 
   baseUrl = "http://localhost:3001/products";
 
-  constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
+  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
-  showMessage(msg: string) : void {
+  showMessage(msg: string): void {
     this.snackBar.open(msg, 'X', {
       duration: 5000,
       horizontalPosition: 'right',
