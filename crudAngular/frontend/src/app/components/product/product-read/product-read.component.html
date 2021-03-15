@@ -1,12 +1,14 @@
 <ul>
     <li *ngFor="let product of products">
         <div class="produto">
-            <img src="" />
+            <img  *ngIf="product.filename.includes('http')" src="{{product.filename}}" />
+                <img  *ngIf="!product.filename.includes('http')" src="https://raw.githubusercontent.com/gisellequarto/Angular/main/crudAngular/backend/assets/images/{{product.filename}}" />
             <div class="nome">
-                <h4>{{ product.title}}</h4>
+                <h4>{{ product.title }}</h4>
+                <p>{{ product.description }}</p>
             </div>
             <div>
-                <span class="preco">{{ product.price}}</span>
+                <span class="preco">€ {{ product.price }}</span>
             </div>
         </div>
     </li>

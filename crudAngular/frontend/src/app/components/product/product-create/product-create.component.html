@@ -6,6 +6,14 @@
                 [(ngModel)]="product.title" name="title">
         </mat-form-field>
         <mat-form-field>
+            <input matInput placeholder="Description" 
+                [(ngModel)]="product.description" name="description">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Image url" 
+                [(ngModel)]="product.filename" name="filename">
+        </mat-form-field>
+        <mat-form-field>
             <input matInput placeholder="Price (€)" 
                 [(ngModel)]="product.price" name="price">
         </mat-form-field>
