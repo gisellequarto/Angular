@@ -1,7 +1,7 @@
 <div>
     <ul>
         <li *ngFor="let product of paginatedProducts">
-            <div routerLink="" class="produto">
+            <div routerLink="/products/update/{{ product.id }}" class="produto">
                 <img  *ngIf="product.filename.includes('http')" src="{{product.filename}}" />
                 <img  *ngIf="!product.filename.includes('http')" src="https://raw.githubusercontent.com/gisellequarto/Angular/main/crudAngular/backend/assets/images/{{product.filename}}" />
             <div class="nome">

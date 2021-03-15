@@ -29,6 +29,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
 
 import localePt from '@angular/common/locales/pt-PT';
 import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -43,7 +44,8 @@ registerLocaleData(localePt);
     PinkDirective,
     ForDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
