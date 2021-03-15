@@ -17,6 +17,10 @@ ul {
     padding: 5px;
 }
 
+.produto:hover {
+    box-shadow: 0 8px 20px 0 #607D8B;
+}
+
 .produto img {
     width: 100%;
     max-height: 60%;

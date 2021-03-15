@@ -1,7 +1,7 @@
 <div>
     <ul>
         <li *ngFor="let product of paginatedProducts">
-            <div class="produto">
+            <div routerLink="" class="produto">
                 <img  *ngIf="product.filename.includes('http')" src="{{product.filename}}" />
                 <img  *ngIf="!product.filename.includes('http')" src="https://raw.githubusercontent.com/gisellequarto/Angular/main/crudAngular/backend/assets/images/{{product.filename}}" />
             <div class="nome">
@@ -9,7 +9,7 @@
                 <p>{{ product.description }}</p>
             </div>
             <div>
-                <span class="preco">€ {{ product.price }}</span>
+                <span class="preco">{{ product.price | currency:"EUR":"symbol" }}</span>
             </div>
         </div>
     </li>
