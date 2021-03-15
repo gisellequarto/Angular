@@ -15,4 +15,5 @@ export class ProductService {
       verticalPosition: 'top'
     })
   }
+  
 }
