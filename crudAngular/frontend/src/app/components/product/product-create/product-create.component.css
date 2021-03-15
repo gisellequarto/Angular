@@ -1,7 +1,23 @@
-button.save {
-    background-color: #E91E63;
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
-button.cancel {
-    background-color: #BDBDBD;
+button {
+  margin: 20px 15px 0px 0px;
+  font-size: 20px;
+  border-color: #757575;
+  color: #212121;
+  box-shadow: 0 0 40px 40px #757575 inset, 0 0 0 0 #F8BBD0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+button.save:hover {
+  box-shadow: 0 0 10px 0 #E91E63 inset, 0 0 10px 4px #E91E63;
+}
+
+button.cancel:hover {
+  box-shadow: 0 0 10px 0 #757575 inset, 0 0 10px 4px #757575;
 }

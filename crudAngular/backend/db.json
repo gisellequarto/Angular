@@ -29,6 +29,11 @@
       "name": "Produto teste",
       "price": 123.99,
       "id": 6
+    },
+    {
+      "name": "input teste",
+      "price": "456.99",
+      "id": 7
     }
   ]
 }
