@@ -25,6 +25,7 @@ import { MatInputModule } from '@angular/material/input';
 
 import { PinkDirective } from './directives/pink.directive';
 import { ForDirective } from './directives/for.directive';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ForDirective } from './directives/for.directive';
     ProductCrudComponent,
     PinkDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
