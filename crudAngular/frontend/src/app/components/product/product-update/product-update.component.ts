@@ -31,16 +31,6 @@ export class ProductUpdateComponent implements OnInit {
     })
   }
 
-  deleteProduct(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-    this.productService.delete(id).subscribe(() => {
-      this.productService.showMessage('Product Deleted!');
-      this.router.navigate(['/products']);
-    })
-  }
-
-
-
   cancel(): void {
     this.router.navigate(['/products']);
   }

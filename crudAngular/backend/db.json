@@ -82,7 +82,7 @@
     },
     {
       "id": 11,
-      "title": "Legums",
+      "title": "Legums and Honey",
       "type": "vegetable",
       "description": "Cooked legums on the wooden table",
       "filename": "11.jpg",
@@ -393,18 +393,19 @@
       "price": 25.62
     },
     {
-      "title": "Fruits Edit Test 2",
-      "description": "Testing the delete and the insert",
-      "filename": "https://www.cookingclassy.com/wp-content/uploads/2019/05/fruit-salad-2.jpg",
-      "price": "5.00",
-      "id": 50
-    }, {
-      "id": 51,
       "title": "Raw legums",
       "type": "vegetable",
       "description": "Raw legums on the wooden table",
       "filename": "4.jpg",
       "price": 17.11,
+      "rating": 2
+    },
+    {
+      "title": "Fruits",
+      "description": "Fruit salad",
+      "filename": "https://www.cookingclassy.com/wp-content/uploads/2019/05/fruit-salad-2.jpg",
+      "price": "8.00",
+      "id": 50
     }
   ]
 }

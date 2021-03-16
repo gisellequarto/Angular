@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 import { MatSnackBar } from "@angular/material/snack-bar";
 import { Observable } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -31,8 +32,7 @@ export class ProductService {
 
   readById(id: string): Observable<Product> {
     const url = `${this.baseUrl}/${id}`;
-    return this.http.get<Product>(url)//.pipe(map((obj) => obj),catchError((e) => this.errorHandler(e))
-    //);
+    return this.http.get<Product>(url)//.pipe(map((obj) => obj),catchError((e) => this.errorHandler(e)));
   }
 
   update(product: Product): Observable<Product> {
@@ -47,7 +47,5 @@ export class ProductService {
     const url = `${this.baseUrl}/${id}`;
     return this.http.delete<Product>(url);
   }
-
-
 
 }
