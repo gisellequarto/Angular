@@ -12,19 +12,34 @@ export class ProductUpdateComponent implements OnInit {
   product: Product;
 
   constructor(
-    private productService : ProductService, 
-    private router : Router,
-    private route : ActivatedRoute
+    private productService: ProductService,
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
-    this.productService.readById(id);
+    this.productService.readById(id).subscribe(product => {
+      this.product = product;
+    });
   }
 
-  updateProduct(): void{
-
+  updateProduct(): void {
+    this.productService.update(this.product).subscribe(() => {
+      this.productService.showMessage('Product Updated!');
+      this.router.navigate(['/products']);
+    })
   }
+
+  deleteProduct(): void {
+    const id = this.route.snapshot.paramMap.get('id');
+    this.productService.delete(id).subscribe(() => {
+      this.productService.showMessage('Product Deleted!');
+      this.router.navigate(['/products']);
+    })
+  }
+
+
 
   cancel(): void {
     this.router.navigate(['/products']);

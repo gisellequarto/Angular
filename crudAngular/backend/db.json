@@ -34,14 +34,6 @@
     },
     {
       "id": 5,
-      "title": "Raw legums",
-      "type": "vegetable",
-      "description": "Raw legums on the wooden table",
-      "filename": "4.jpg",
-      "price": 17.11
-    },
-    {
-      "id": 6,
       "title": "Baking cake",
       "type": "dairy",
       "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
@@ -401,11 +393,18 @@
       "price": 25.62
     },
     {
-      "title": "Fruits Test",
-      "description": "Testing the url",
+      "title": "Fruits Edit Test 2",
+      "description": "Testing the delete and the insert",
       "filename": "https://www.cookingclassy.com/wp-content/uploads/2019/05/fruit-salad-2.jpg",
       "price": "5.00",
       "id": 50
+    }, {
+      "id": 51,
+      "title": "Raw legums",
+      "type": "vegetable",
+      "description": "Raw legums on the wooden table",
+      "filename": "4.jpg",
+      "price": 17.11,
     }
   ]
 }

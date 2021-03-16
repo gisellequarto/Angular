@@ -43,5 +43,11 @@ export class ProductService {
     //);
   }
 
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Product>(url);
+  }
+
+
 
 }
